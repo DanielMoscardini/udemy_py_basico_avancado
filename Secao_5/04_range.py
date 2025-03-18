@@ -8,6 +8,7 @@ for num in range(1, 11):
     print(num, end=' ')
 print('\n')
 
+# pulando de 2 em 2
 for num in range(1, 11, 2):
     print(num, end=' ')
 print('\n')
