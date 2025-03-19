@@ -44,3 +44,7 @@ print(lista1)
 # Removendo elemento pelo indice:
 lista1.pop(1)
 print(lista1)
+
+# Limpando uma lista:
+lista1.clear()
+print(lista1)
