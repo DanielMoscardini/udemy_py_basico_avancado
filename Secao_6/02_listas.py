@@ -23,15 +23,15 @@ print(num1)
 print(num2)
 print(num5)
 
-# Shallow Copy e Deep Copy
-# Shallow Copy eh quando a copia e a original sao independentes, ou seja, uma nao afeta a outra.
+# Deep Copy e Shallow Copy
+# Deep Copy eh quando a copia e a original sao independentes, ou seja, uma nao afeta a outra.
 nova = lista.copy()
 nova.append(6)
 print('\nDeep Copy:')
 print(lista)
 print(nova, "\n\nShallow Copy:")
 
-
+# Shallow Copy eh quando a lista nova e original sao dependentes, a alteracao de uma reflete na outra.
 nova2 = lista
 nova2.append(6)
 print(lista)
