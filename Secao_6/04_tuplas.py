@@ -1,5 +1,5 @@
 # Tuplas sao mais rapidas do que listas (+ performance).
-
+# Codigo mais seguro (imutaveis).
 
 tupla = (1, 2, 3, 4, 5)
 for n in tupla:
